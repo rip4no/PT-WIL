@@ -6,56 +6,64 @@
     <title>Halaman Verifikasi Dokumen Digital</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', Arial, sans-serif;
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background: url('https://raw.githubusercontent.com/rip4no/Github-RIpano1/refs/heads/main/safety%20talk.jpg') no-repeat center center fixed; /* Ganti dengan path gambar Anda */
+            background: url('https://raw.githubusercontent.com/rip4no/Github-RIpano1/refs/heads/main/safety%20talk.jpg') no-repeat center center fixed;
             background-size: cover;
+            color: #fff;
         }
         .verification-container {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            width: 600px;
-        }
-        .header {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            max-width: 500px;
             text-align: center;
-            margin-bottom: 20px;
         }
         .header h1 {
-            font-size: 24px;
+            font-size: 28px;
             margin: 0;
-            color: #333;
+            color: #4CAF50;
+            font-weight: 700;
         }
         .header img {
             display: block;
-            margin: 10px auto;
-            width: 100px; /* Ukuran logo */
+            margin: 50px auto;
+            width: 500px; /* Ukuran logo diperbesar */
             height: auto;
         }
         .header p {
             font-size: 14px;
-            margin: 0;
-            color: #666;
+            margin: 5px 0;
+            color: #555;
         }
         .details {
+            margin-top: 20px;
+            text-align: left;
+        }
+        .details p {
             margin: 10px 0;
-            line-height: 1.6;
+            line-height: 1.5;
+            font-size: 16px;
             color: #333;
         }
         .details b {
             color: #000;
         }
         .footer {
-            margin-top: 20px;
-            text-align: center;
+            margin-top: 30px;
             font-size: 12px;
-            color: #999;
+            color: #777;
+        }
+        .footer span {
+            color: #000;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -63,7 +71,7 @@
     <div class="verification-container">
         <div class="header">
             <h1>✅ Dokumen Terverifikasi</h1>
-            <img src="https://raw.githubusercontent.com/rip4no/Github-RIpano1/refs/heads/main/Logo_Pt.png" alt="Logo Perusahaan"> <!-- Ganti dengan path logo perusahaan -->
+            <img src="https://raw.githubusercontent.com/rip4no/Github-RIpano1/refs/heads/main/Logo_Pt.png" alt="Logo Perusahaan">
             <p>Halaman Verifikasi Dokumen Digital</p>
         </div>
         <div class="details">
@@ -72,10 +80,10 @@
             <p><b>Ditandatangani oleh:</b> Ripano Gusman</p>
             <p><b>Jabatan:</b> Kadiv. Mine Engineer</p>
             <p><b>Tanggal Tanda Tangan:</b> 29 Mei 2025</p>
-            <p><b>Status Verifikasi:</b> Valid dan Sah</p>
+            <p><b>Status Verifikasi:</b> <span style="color: #4CAF50; font-weight: bold;">Valid dan Sah</span></p>
         </div>
         <div class="footer">
-            Halaman ini dikeluarkan oleh sistem informasi resmi PT WIL sebagai bukti verifikasi keabsahan dokumen.
+            Halaman ini dikeluarkan oleh sistem informasi resmi <span>PT WIL</span> sebagai bukti verifikasi keabsahan dokumen.
         </div>
     </div>
 </body>
