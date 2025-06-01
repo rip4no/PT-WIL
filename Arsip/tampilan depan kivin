@@ -1,0 +1,84 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Livin Mandiri UI Clone</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5f5;
+    }
+    .header {
+      background-color: #002984;
+      color: white;
+      padding: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .saldo {
+      background-color: #ffd600;
+      padding: 20px;
+      text-align: center;
+    }
+    .saldo h2 {
+      margin: 0;
+      font-size: 24px;
+    }
+    .quick-actions {
+      display: flex;
+      justify-content: space-around;
+      padding: 16px;
+      background-color: white;
+    }
+    .action {
+      text-align: center;
+    }
+    .action img {
+      width: 40px;
+      height: 40px;
+    }
+    .carousel {
+      margin: 20px;
+      background-color: white;
+      border-radius: 12px;
+      overflow: hidden;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+      box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    }
+    .bottom-nav div {
+      text-align: center;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>  <div class="header">
+    <div>👤 Ripano</div>
+    <div>🔔</div>
+  </div>  <div class="saldo">
+    <h2>Rp ••••••••</h2>
+    <p>Rekening Utama - 1234xxxxxx</p>
+  </div>  <div class="quick-actions">
+    <div class="action">
+      <img src="https://img.icons8.com/ios-filled/50/money-transfer.png" alt="Transfer" />
+      <p>Transfer</p>
+    </div>
+    <div class="action">
+      <img src="https://img.icons8.com/ios-filled/50/bill.png" alt="Bayar" />
+      <p>Bayar</p>
+    </div>
+    <div class="action">
+      <img src="https://img.icons8.com/ios-filled/50/online-money-transfer.png"
